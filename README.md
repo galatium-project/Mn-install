@@ -4,9 +4,10 @@ Shell script to install a [Galatium Masternode](https://www.galatium.org/) on a 
 ***
 ## Installation:
 ```
-git clone https://github.com/gltproject/glt-install/
-cd glt-install
-bash glt-install.sh
+git clone https://github.com/galatium-project/Mn-install.git
+cd Mn-install
+chmod 777 install.sh
+./install.sh
 ```
 ***
 
