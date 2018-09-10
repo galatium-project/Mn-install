@@ -4,9 +4,9 @@ CONFIG_FILE='galatium.conf'
 CONFIGFOLDER='/root/.galatium'
 COIN_DAEMON='/usr/local/bin/galatiumd'
 COIN_CLI='/usr/local/bin/galatium-cli'
-COIN_REPO='https://github.com/galatium-project/release/galatium-1.0.0-x86_64-linux-gnu.tar.gz'
+COIN_REPO='https://github.com/galatium-project/galatium/releases/download/1.0.0/galatium-1.0.0-x86_64-linux-gnu.tar.gz'
 COIN_NAME='Galatium'
-COIN_PORT=51
+COIN_PORT=51798
 
 NODEIP=$(curl -s4 icanhazip.com)
 
